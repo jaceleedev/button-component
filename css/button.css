@@ -16,6 +16,10 @@
   transition: all 0.3s ease;
 }
 
+.button:disabled {
+  cursor: not-allowed;
+}
+
 /* Button size and font-size */
 .size-medium {
   gap: 4px;
