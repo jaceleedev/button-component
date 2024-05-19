@@ -4,8 +4,11 @@
 :root {
   --colors-white: #ffffff;
   --colors-indigo-700: #4338ca;
+  --colors-indigo-800: #3730a3;
   --colors-red-600: #dc2626;
   --colors-neutral-200: #e6e6e6;
+  --colors-neutral-400: #a3a3a3;
+  --colors-neutral-600: #525252;
   --colors-neutral-900: #171717;
 }
 
@@ -15,22 +18,38 @@ body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 112px 0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.credits {
-  color: #777;
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  font-size: 11px;
-  text-align: center;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
-.credits a {
-  color: #000;
-  font-weight: bold;
+.buttons-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 112px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 112px 32px;
+  }
 }
