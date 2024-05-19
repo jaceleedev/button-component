@@ -12,8 +12,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/button.css" />
 
-    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps.
       If you're not using Tailwind, you may delete the <script> -->
     <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,22 +25,357 @@
     </style>
   </head>
   <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
+    <div class="content">
+      <!-- primary -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button class="button gap-medium size-medium font-size-medium primary">
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large primary">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
 
-    <!-- Attribute this challenge to yourself! -->
-    <div class="credits">
-      A challenge by
-      <a
-        href="https://www.greatfrontend.com/projects?ref=challenges"
-        target="_blank"
-        >GreatFrontEnd Projects</a
-      >. Built by
-      <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
-        >Your Name</a
-      >.
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large primary"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button 2extra large + no icons -->
+        <button
+          class="button gap-2extra-large size-2extra-large font-size-2extra-large primary"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large primary">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
+      <!-- secondary -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button
+          class="button gap-medium size-medium font-size-medium secondary"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large secondary">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large secondary"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button 2extra large + no icons -->
+        <button
+          class="button gap-2extra-large size-2extra-large font-size-2extra-large secondary"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large secondary">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
+      <!-- tertiary -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button class="button gap-medium size-medium font-size-medium tertiary">
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large tertiary">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large tertiary"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button extra large + no icons -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large tertiary"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large tertiary">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
+      <!-- link-color -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button
+          class="button gap-medium size-medium font-size-medium link-color"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large link-color">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large link-color"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button 2extra large + no icons -->
+        <button
+          class="button gap-2extra-large size-2extra-large font-size-2extra-large link-color"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large link-color">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
+      <!-- link-gray -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button
+          class="button gap-medium size-medium font-size-medium link-gray"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large link-gray">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large link-gray"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button 2extra large + no icons -->
+        <button
+          class="button gap-2extra-large size-2extra-large font-size-2extra-large link-gray"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large link-gray">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
+      <!-- destructive -->
+      <div class="buttons-row">
+        <!-- button medium + no icons -->
+        <button
+          class="button gap-medium size-medium font-size-medium destructive"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button large + left icon -->
+        <button class="button gap-large size-large font-size-large destructive">
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button extra large + right icon -->
+        <button
+          class="button gap-extra-large size-extra-large font-size-extra-large destructive"
+        >
+          <span class="text">Button CTA</span>
+          <span class="icon-wrapper-medium"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+        <!-- button 2extra large + no icons -->
+        <button
+          class="button gap-2extra-large size-2extra-large font-size-2extra-large destructive"
+        >
+          <span class="text">Button CTA</span>
+        </button>
+        <!-- button + one icon -->
+        <button class="button icon-size-2extra-large destructive">
+          <span class="icon-wrapper-large"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26ZM12.0006 15.968L16.2473 18.3451L15.2988 13.5717L18.8719 10.2674L14.039 9.69434L12.0006 5.27502L9.96214 9.69434L5.12921 10.2674L8.70231 13.5717L7.75383 18.3451L12.0006 15.968Z"
+              /></svg
+          ></span>
+        </button>
+      </div>
     </div>
     <script src="js/index.js"></script>
   </body>
