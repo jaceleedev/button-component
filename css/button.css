@@ -15,3 +15,50 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+/* Button size and font-size */
+.size-medium {
+  gap: 4px;
+
+  padding: 10px 14px;
+}
+.size-large {
+  gap: 6px;
+
+  padding: 10px 16px;
+}
+.size-extra-large {
+  gap: 6px;
+
+  padding: 12px 20px;
+}
+.size-2extra-large {
+  gap: 10px;
+
+  padding: 16px 24px;
+}
+.icon-size-medium {
+  padding: 10px;
+}
+.icon-size-large {
+  padding: 12px;
+}
+.icon-size-extra-large {
+  padding: 14px;
+}
+.icon-size-2extra-large {
+  padding: 16px;
+}
+.font-size-medium {
+  font-size: 14px;
+  line-height: 20px;
+}
+.font-size-large,
+.font-size-extra-large {
+  font-size: 16px;
+  line-height: 24px;
+}
+.font-size-2extra-large {
+  font-size: 18px;
+  line-height: 28px;
+}
