@@ -18,9 +18,13 @@ body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   min-height: 100vh;
+}
 
+main {
   display: flex;
   justify-content: center;
+
+  min-height: 100vh;
 
   padding: 112px 0;
 }
@@ -43,13 +47,15 @@ body {
 }
 
 @media (max-width: 375px) {
-  body {
+  main {
+    min-height: 1024px;
+
     padding: 112px 24px;
   }
 }
 
 @media (max-width: 768px) {
-  body {
+  main {
     padding: 112px 32px;
   }
 }
