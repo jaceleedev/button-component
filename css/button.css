@@ -221,3 +221,30 @@
 .destructive:disabled {
   color: var(--colors-neutral-400);
 }
+
+/* Button text and icon */
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 2px;
+}
+.icon-wrapper-medium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+  padding: 1.667px;
+}
+.icon-wrapper-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+}
