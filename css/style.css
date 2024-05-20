@@ -61,4 +61,8 @@ main {
 
     padding: 112px 24px;
   }
+
+  .buttons-row {
+    width: 323px;
+  }
 }
